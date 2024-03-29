@@ -6,7 +6,7 @@ export default function main() {
         <div className="pt-28 bg-gradient-to-r from-slate-900 to-slate-700">
             <Container className="pb-32">
                 <div className="grid md:grid-cols-2 px-10 sm:px-0">
-                    <img src="src/assets/Code-typing-amico.svg" alt="about photo"
+                    <img src="./Code-typing-amico.svg" alt="about photo"
                     className="" />
                     <div className="space-y-4 py-16 sm:px-16">
                         <DefaultTitle name="About Us" />
