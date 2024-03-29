@@ -3,7 +3,7 @@ import DefaultTitle from "../../components/DefaultTitle";
 
 export default function main() {
     return (
-        <div className="pt-28 bg-gradient-to-r from-slate-900 to-slate-700">
+        <div className="pt-28 bg-gradient-to-r from-slate-900 to-slate-700 min-h-screen">
             <Container className="pb-32">
                 <div className="grid md:grid-cols-2 px-10 sm:px-0">
                     <img src="./images/Code-typing-amico.svg" alt="about photo"

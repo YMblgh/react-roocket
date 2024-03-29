@@ -18,10 +18,9 @@ export default () => {
 
 
     return (
-        
-            <div className="bg-gradient-to-b from-slate-950 to-slate-700 pt-16">
+            <div className="bg-gradient-to-b from-slate-950 to-slate-700 pt-16 min-h-screen">
                 <Container className="pt-8 pb-16 sm:py-16">
-                    <DefaultTitle name="Latest posts" />
+                    <DefaultTitle className="ml-6 sm:ml-auto" name="Latest posts" />
                     <PostsList>{posts}</PostsList>
                     <div className="flex justify-center mt-16">
                         <PrimaryButton onClick={() => navigator('/posts')} to="/posts">All Posts!</PrimaryButton>

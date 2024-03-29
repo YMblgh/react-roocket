@@ -12,9 +12,9 @@ export default () => {
     let posts = useContext(PostsContext)
 
     return (
-        <div className="bg-gradient-to-br from-slate-950 to-slate-700 pt-32">
-            <Container className="pb-16">
-                <DefaultTitle name="Posts" />
+        <div className="bg-gradient-to-br from-slate-950 to-slate-700 pt-16 min-h-screen">
+            <Container className="pt-8 pb-16 sm:py-16">
+                <DefaultTitle className="ml-6 sm:ml-auto" name="Posts" />
                 <PostsList>{posts}</PostsList>
             </Container>
         </div>
